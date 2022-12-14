@@ -13,7 +13,7 @@ namespace spelet21an
             Random slump = new Random();
             while (meny != 4)
             {
-                Console.WriteLine($"\"1.Spela 21:an\n2.visa senaste vinnaren\n3.spelets regler\n4.avsluta programmet");
+                Console.WriteLine($"\n1.Spela 21:an\n2.visa senaste vinnaren\n3.spelets regler\n4.avsluta programmet");
                 meny = int.Parse(Console.ReadLine());
                 switch (meny)
                 {
